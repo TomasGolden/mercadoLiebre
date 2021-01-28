@@ -1,0 +1,611 @@
+/*************************************************************************************************************************************
+                                                  CONTENEDOR
+*************************************************************************************************************************************/
+
+.contenedor{
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #EAC926;
+}
+
+/*************************************************************************************************************************************
+                                                   HEADER
+*************************************************************************************************************************************/
+
+.logo{
+    width: 50%;
+    margin-top: 0px;
+}
+#header{
+    display: flex;
+    margin: auto;
+}
+#buscar{
+    width: 50%;
+    display: flex;
+    padding: 20px 18px 0px 10px;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+#buscar input{
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+.search{
+    background-color: white;
+    padding: 4px;
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+.lista{
+    display: none;
+}
+.cuotas{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.burgerMenu{
+    margin: auto;
+    background-color: darkblue;
+    text-align: center;
+    border-radius: 3px;
+    width: 20px;
+    color: white; 
+    margin-bottom: 10px;
+}
+
+/*************************************************************************************************************************************
+                                                   MAIN
+*************************************************************************************************************************************/
+
+.banner{
+    padding: 0px;
+    display: flex;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.section{
+    background-color: lightgray;
+    border: solid lightgray;
+}
+.titulo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    padding: 30px;
+}
+.producto{
+    justify-content: center;
+}
+.articulos{
+    margin-bottom: 10px;
+    padding: 5px;
+    margin: auto;
+    box-shadow: none;
+}
+
+/*************************************************************************************************************************************
+                                                   ARTICULOS
+*************************************************************************************************************************************/
+
+.descripciones{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border-top: 1px solid #ebebeb;
+    display: none;
+}
+.descuentos{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: green;
+    margin-left: 10px;
+}
+.precios{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.camion{
+    color: green;
+    margin-right: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    transition: all 1.5s;
+}
+.camion:hover{
+    transform: rotateY(-360deg);
+    transform: rotateZ(360deg);
+}
+.circulo{
+    background-color: white;
+    border: green solid 0.5px;
+    border-radius: 50%;
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: flex;
+    left: 210px;
+    bottom: 29px;
+}
+.datos{
+    background-color: white;
+    padding: 15px;
+    border-top: 10px #ebebeb;
+}
+.numeros{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*************************************************************************************************************************************
+                                                       FOOTER
+*************************************************************************************************************************************/
+
+.icon{
+    text-align: center;
+    color: blue;
+    width: auto;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.legal{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.titulo1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.box{
+    background-color: white;
+}
+.footer{
+    background-color: white;
+    box-sizing: content-box;
+    border: solid white 2px;
+    
+}
+.copyright{
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+/*************************************************************************************************************************************
+                                                   LOGIN.HTML
+*************************************************************************************************************************************/
+
+.login{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    border: lightgray none;
+}
+.botonLogin{
+    width: 50%;
+    height: 36px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #1259c3;
+    color: white;
+    transition: all 0.5s;
+    margin: auto;
+
+}
+.botonLogin:hover{
+    background-color:  #0022AA;
+}
+.barrasLogin{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5em;
+    padding: 10px;
+    width: 80vw;
+    border: lightgray;
+}
+.barrasLogin:hover:invalid {
+    background-color: rgb(221, 63, 63);
+}
+.btn{
+    display: flex;
+}
+
+/*************************************************************************************************************************************
+                                                   REGISTER.HTML
+*************************************************************************************************************************************/
+.register{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    border: solid lightgray;
+}
+.barrasRegister{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5em;
+    padding: 10px;
+    width: 80vw;
+    border: lightgray;
+
+}
+.botonEnviar{
+    width: 25%;
+    height: 36px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #1259c3;
+    color: white;
+    transition: all 0.5s;
+}
+.botonEnviar:hover{
+    background-color:  #0022AA;
+}
+.botonBorrar{
+    width: 25%;
+    height: 36px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #e65050;
+    color: white;
+    transition: all 0.5s;
+}
+.botonBorrar:hover{
+    background-color: #ee1414;
+}
+.listaRegister{
+    display: flex;
+    flex-direction: column;
+}
+/*************************************************************************************************************************************
+                                                   MEDIA QUERY DESKTOP
+*************************************************************************************************************************************/
+
+@media(min-width:769px){
+    .articulos{
+        transition: all 1s;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .articulos:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+    .descripciones{
+        display: inline;
+        opacity: 0;
+        transition: all 1s;
+    }
+    .descripciones:hover{
+        display: inline;
+        opacity: 10;
+    }
+    .lista{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 40px;
+    }
+    .producto{
+        margin: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }  
+    .burgerMenu{
+        display: none;
+    }
+    #lista1 li {
+        display:inline;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 5px;
+        font-family: sans-serif;
+        }
+    #lista2 li {
+        display:inline;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5px;
+        font-family: sans-serif;
+    }
+    .footer{
+        display: flex;
+    }
+    .copyright{
+        text-align: left;
+    }
+    .banner{
+        display: flex;
+    }
+    .cuotas{
+        display: flex;
+        width: 30%;
+        margin-right: 20px;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .logo{
+        width: 50%;
+    }
+    #buscar{
+        width: 50%;
+        align-content: center;
+        margin: auto;
+        margin-left: 30px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    #header{
+        justify-content: space-around;
+        display: flex;
+        width: 50%;
+        margin: auto;
+    }
+    .camion{
+        color: green;
+        margin-right: 10px;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+        transition: all 1.5s;
+    }
+    .camion:hover{
+        transform: rotateY(-360deg);
+        transform: rotateZ(360deg);
+    }
+    .circulo{
+        background-color: white;
+        border: green solid 0.5px;
+        border-radius: 50%;
+        position: relative;
+        width: 29px;
+        height: 29px;
+        display: flex;
+        left: 190px;
+        bottom: 29px;
+    }
+    .login{
+        background-color: lightgray;
+        display: flex;
+        justify-content: space-around;
+        height: 300px;
+        border: lightgray none;
+    }
+    .boton{
+        background-color: blue;
+        border-radius: 10%;
+        display: flex;
+        align-self: center;
+        width: 40%;
+        height: 20px;
+        border: blue none;
+    }
+    .barras{
+        display: flex;
+        flex-direction: column;
+        border-radius: 40%;
+        padding: 10px;
+        width: 50vw;
+        border: none;
+    }
+    .icon{
+        display: flex;
+        text-align: center;
+        margin: auto;
+        color: blue;
+        width: 10px;
+        margin-top: 10px;
+        font-size: 50px;
+        transition: all 1s;
+    }
+    .icon:hover{
+        color: darkblue;
+    }
+    .register{
+        background-color: lightgray;
+        display: flex;
+        justify-content: space-around;
+        height: 600px;
+        border: solid lightgray;
+    }
+    .barrasRegister{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 5px;
+        justify-content: space-between;
+        width: 90vw;
+    
+    }
+    .botonRegister{
+        display: flex;
+        justify-content: space-around;
+    }
+    .listaRegister{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/*************************************************************************************************************************************
+                                                   MEDIA QUERY IPAD/TABLET 
+*************************************************************************************************************************************/
+
+@media(min-width:481px) and (max-width:768px){
+    .articulos{
+        transition: all 1s;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .articulos:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+    .descripciones{
+        display: inline;
+        transition: all 1s;
+        opacity: 0;
+    }
+    .descripciones:hover{
+        display: inline;
+        opacity: 10;
+    }
+    .producto{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .lista{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 40px;
+    }
+    #lista1 li {
+        display:inline;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 3px;
+        margin: auto;
+    }
+    #lista2 li {
+        display:inline;
+        flex-direction: row;
+        justify-content: center;
+        padding: 3px;
+        margin: auto;
+    }
+    .burgerMenu{
+        display: none;
+    }
+    .banner{
+    display: flex;
+    }
+    .cuotas{
+        display: flex;
+        width: 50%;
+        margin-right: 1px;
+        margin-top: 20px;
+        font-size: small;
+    }
+    .logo{
+        width: 50%;
+    }
+    #buscar{
+        width: 50%;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    #header{
+        justify-content: space-around;
+        display: flex;
+        width: 50%;
+        margin: auto;
+    }
+    .camion{
+        color: green;
+        margin-right: 10px;
+        padding: 5px;
+        box-sizing: border-box;
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+        transition: all 1.5s;
+    }
+    .camion:hover{
+        transform: rotateY(-360deg);
+        transform: rotateZ(360deg);
+    }
+    .circulo{
+        background-color: white;
+        border: green solid 0.5px;
+        border-radius: 50%;
+        position: relative;
+        width: 29px;
+        height: 29px;
+        display: flex;
+        left: 190px;
+        bottom: 29px;
+    }
+    .login{
+        background-color: lightgray;
+        display: flex;
+        justify-content: space-around;
+        height: 300px;
+        border: lightgray none;
+    }
+    .boton{
+        background-color: blue;
+        border-radius: 10%;
+        display: flex;
+        align-self: center;
+        width: 40%;
+        height: 20px;
+        border: blue none;
+    }
+    .barras{
+        display: flex;
+        flex-direction: column;
+        border-radius: 40%;
+        padding: 10px;
+        width: 50vw;
+        border: none;
+    }
+    .icon{
+        text-align: center;
+        color: blue;
+        width: 10px;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 50px;
+        transition: all 1s;
+    }
+    .icon:hover{
+        color: darkblue;
+    }
+    .register{
+        background-color: lightgray;
+        display: flex;
+        justify-content: space-around;
+        height: 600px;
+        border: solid lightgray;
+    }
+    .barrasRegister{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 5px;
+        justify-content: space-between;
+        width: 80vw;
+    
+    }
+    .botonRegister{
+        display: inline;
+        justify-content: space-around;
+    }
+    .listaRegister{
+        display: flex;
+        flex-direction: row;
+    }
+}
